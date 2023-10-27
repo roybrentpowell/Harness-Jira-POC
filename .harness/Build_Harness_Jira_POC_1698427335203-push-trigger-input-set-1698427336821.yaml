@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Harness_Jira_POC_1698427335203-push-trigger-input-set
+  identifier: Build_Harness_Jira_POC_1698427335203pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Harness_Jira_POC_1698427335203
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
